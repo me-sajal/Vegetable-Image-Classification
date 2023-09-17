@@ -43,7 +43,7 @@ def predict(image):
     return predicted_class
 
 
-defgit config --global user.name "me-sajal"  main():
+def  main():
     st.title("Vegetable Classifier")
 
     uploaded_image = st.file_uploader(
